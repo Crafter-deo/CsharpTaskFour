@@ -33,4 +33,4 @@ C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\staticwebassets\Csh
 C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\CsharpTaskFour.dll
 C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\CsharpTaskFour.pdb
 C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\CsharpTaskFour.csproj.CopyComplete
-C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\Razor\Views\App\Compare.cshtml.g.cs
+C:\Users\ADMIN\Csharp\CsharpTaskFour\obj\Debug\netcoreapp3.1\Razor\Views\Sqrt\Compare.cshtml.g.cs

@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Squareroot Comparer Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Squareroot Comparer</h1>
+</div>
+
+<div>
+@{
+    if (ViewBag.Result != null)
+    {
+        <div>
+            <p>The higher number is: @ViewBag.Result</p>
+        </div>
+    }
+}
+
+</div>
+<div>
+    <form asp-controller="Sqrt" asp-action="Compare" method="POST">
+
+        <input type="number" placeholder="First Number" name="firstNumber"/>
+        <input type="number" placeholder="Second Number" name="secondNumber"/>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</div>
