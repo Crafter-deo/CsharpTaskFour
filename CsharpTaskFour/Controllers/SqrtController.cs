@@ -17,10 +17,22 @@ namespace CsharpTaskFour.Controllers
             double firstNumbersqrt = Math.Sqrt(double.Parse(firstNumber));
             double secondNumbersqrt = Math.Sqrt(double.Parse(secondNumber));
 
-            double result = Math.Max(firstNumbersqrt, secondNumbersqrt);
+            
+            ViewBag.Result1 = firstNumbersqrt;
+            ViewBag.Result2 = secondNumbersqrt;
+            
+            if (firstNumbersqrt <= 0)
+            {
+                Console.WriteLine("Enter positive numbers only");
+            }
 
-            ViewBag.Result = result;
+            if (secondNumbersqrt <= 0)
+            {
+                Console.WriteLine("Enter positive numbers only");
+            }
+
             return View();
+
         }
     }
 }

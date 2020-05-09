@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Csharp\\CsharpTaskFour\\CsharpTaskFour.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\Github_repos\\CsharpTaskFour\\CsharpTaskFour\\CsharpTaskFour.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Csharp\\CsharpTaskFour\\CsharpTaskFour.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\Github_repos\\CsharpTaskFour\\CsharpTaskFour\\CsharpTaskFour.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Csharp\\CsharpTaskFour\\CsharpTaskFour.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\Github_repos\\CsharpTaskFour\\CsharpTaskFour\\CsharpTaskFour.csproj",
         "projectName": "CsharpTaskFour",
-        "projectPath": "C:\\Users\\ADMIN\\Csharp\\CsharpTaskFour\\CsharpTaskFour.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\Github_repos\\CsharpTaskFour\\CsharpTaskFour\\CsharpTaskFour.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Csharp\\CsharpTaskFour\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\Github_repos\\CsharpTaskFour\\CsharpTaskFour\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -7,22 +7,34 @@
 </div>
 
 <div>
-@{
-    if (ViewBag.Result != null)
-    {
-        <div>
-            <p>The higher number is: @ViewBag.Result</p>
-        </div>
-    }
-}
-
-</div>
-<div>
-    <form asp-controller="Sqrt" asp-action="Compare" method="POST" min="1" type="number">
+    <form asp-controller="Sqrt" asp-action="Compare" method="POST">
 
         <input type="number" placeholder="First Number" name="firstNumber"/>
         <input type="number" placeholder="Second Number" name="secondNumber"/>
         <button type="submit">Submit</button>
+
+        if (firstNumbersqrt > secondNumbersqrt)
+        {
+           <div>
+                <p>  The number @firstNumberm with square root of @ViewBag.Result1 has a higher square root than the number @secondNumberm with square root @ViewBag.Result2 </p>
+            </div>
+        }
+        if (firstNumbersqrt < secondNumbersqrt)
+        {
+           <div>
+                <p>  The number @secondNumberm with square root of @ViewBag.Result2 has a higher square root than the number @firstNumberm with square root @ViewBag.Result1 </p>
+            </div>
+        }
+        if(firstNumbersqrt == secondNumbersqrt)
+        {
+            <div>
+                <p>  The numbers provided have the same square roots. Enter a set of different numbers </p>
+                 </div>
+        }
+        else ()
+        {
+            break;
+        }
 
     </form>
 
